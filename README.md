@@ -17,7 +17,10 @@ Este bot é uma ferramenta valiosa para equipes que seguem a metodologia Scrum, 
 Horário de Envio.
 - As recomendações serão enviadas todos os dias úteis às 13:30 (horário de Brasília). Ajuste conforme necessário.
 - Configuração das Tarefas da Sprint:
+
 Configure os dados das tarefas no arquivo __sprint_data.json__, como a duração de cada sprint, a data de início, os dias úteis e as tarefas planejadas.
 Ao configurar as tarefas da sprint, certifique-se de inserir corretamente o número da sprint, por exemplo: sprint_1, sprint_2, ... Isso é essencial para o funcionamento adequado do bot.
+
 Cada tarefa deve ser listada como um item dentro do array correspondente à sua sprint. A duração de cada tarefa é configurada em minutos dentro do array específico dessa tarefa. Se a tarefa envolver um curso ou microtarefa com várias aulas ou etapas, cada aula ou microtarefa pode ter sua duração adicionada ao array correspondente. Dessa forma, além da tarefa recomendada para o dia, também são geradas sugestões de aula ou microtarefa recomendada para o dia.
+
 Caso a tarefa inicie com __[Opcional]__, serão geradas duas recomendações diárias. Uma conterá as recomendações não opcionais, enquanto a outra incluirá as recomendações opcionais calculadas.
